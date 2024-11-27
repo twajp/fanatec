@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '*/10 * * * *' # *:00に実行
+    - cron: '*/5 * * * *' # *:00に実行
   workflow_dispatch:
 
 jobs:
