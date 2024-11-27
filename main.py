@@ -14,7 +14,7 @@ class ChangeDetector:
         self.isChanged = html_old != html_new
 
 
-tokorozawa = ChangeDetector('transportation.html', 'https://www.waseda.jp/fhum/hum/facility/bus-parking/')
+tokorozawa = ChangeDetector('transportation.html', 'https://fanatec.com/ja-jp/clubsport-pedals-v3-inverted?_gl=1*7z2g83*_gcl_au*ODg5MzkxODUwLjE3MjU4Mzk0NTM.*_ga*MzQ2MTYzNjYuMTcyMzY4ODgyMQ..*_ga_Q6VYC4JPVE*MTczMjcxMjc0Ny40LjAuMTczMjcxMjc0Ny42MC4wLjA.')
 
 print(f'isChanged={tokorozawa.isChanged}')
 # print(f'isChanged={any((tokorozawa.isChanged, tokorozawa.isChanged))}')
